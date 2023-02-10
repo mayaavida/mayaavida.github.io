@@ -108,3 +108,25 @@ a{
   justify-content: flex-start;
   margin: 0 3% 0 2%;
 }
+
+
+/* Media Queries */
+
+@media  screen and (max-width: 750px) {
+  .header, .skills > ul{
+    flex-direction: column;
+  }
+  .header{
+    margin-bottom: 2.5rem;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .exp, .education, .skills, main {
+    padding: 4%;
+  }
+  h1{
+    line-height: 3rem;
+  }
+}
