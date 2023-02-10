@@ -128,4 +128,7 @@ a{
   h1{
     line-height: 3rem;
   }
+    h2{
+    line-height: 2rem;
+  }
 }
